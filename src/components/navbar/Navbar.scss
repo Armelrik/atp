@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+    color: #fff;
+
+    .container{
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+
+        .logo{
+            font-size: 36px;
+            font-weight: bold;
+            cursor: pointer;
+
+            .text{}
+            .dot{
+                color: teal; //#1dbf73;
+            }
+        }
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            font-weight: 500;
+            cursor: pointer;
+            
+            button{
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: 1px solid #fff;
+                cursor: pointer;
+                background-color: transparent;
+
+                &:hover{
+                    background-color: rgb(31, 163, 163);
+                    border-color: teal; 
+                }
+            }
+            
+        }
+    }
+
+}
