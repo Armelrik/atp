@@ -1,0 +1,32 @@
+.trustedby{
+    background-color: #fafafa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+    .container{
+        color: lightgrey;
+        width: 760px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        transition: all .5s ease;
+
+        span{
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        i{
+            font-weight: bold;
+            font-size: 32px;
+
+
+            &:hover{
+                scale: 1.3;
+            }
+        }
+        
+    }
+}

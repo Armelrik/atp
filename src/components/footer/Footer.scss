@@ -1,5 +1,101 @@
 .footer{
-    // width: 100vw;
-    height: 100vh;
-    // background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    color: #999;
+    margin: 50px 0px;
+
+    .container{
+        width: 1000px;
+        
+
+        .top{
+            display: flex;
+            justify-content: space-between;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                h2{
+                    font-size: 16px;
+                    color: #555;
+                }
+
+                span{
+                    font-weight: 300;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        hr{
+            margin: 50px 0px;
+            height: 0;
+            border: 1px solid rgb(237, 235, 235);
+        }
+
+        .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+
+            .left{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                h2{
+                    color: black;
+
+                    i{
+                        color: red;
+                        font-size: 24px;
+                    }
+                }
+
+                span{
+                    font-size: 14px;
+                }
+            }
+            .right{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                
+
+                .social{
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    a{               
+
+                        i{
+                            color: #999;
+                        }
+                    }
+                }
+
+                .link{
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+    
+
+                    i{
+                        font-size: 18px;
+                        
+                    }
+                }
+
+                i{
+                    font-size: 22px;
+                    
+                }
+                
+            }
+        }
+    }
 }
