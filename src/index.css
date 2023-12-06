@@ -1,12 +1,12 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
 
 
   /* color-scheme: light dark; */
   /* color: rgba(255, 255, 255, 0.87); */
   /* background-color: #242424; */
 
-}
+/* } */
 
 * {
   margin: 0;
@@ -14,6 +14,11 @@
   box-sizing: border-box;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
 }
 
 /* body {
