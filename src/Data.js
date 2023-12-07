@@ -139,3 +139,78 @@ export const projects = [
     username: "Anna Pearl",
   },
 ];
+
+export const gigs = [
+  {
+    id: 1,
+    img: "img/pattern.jpg",
+    pp: "img/bg.jpg",
+    desc: "Category1 desc",
+    price: 1126,
+    star: 5,
+    username: "Anna Pearl"
+  },
+  {
+    id: 2,
+    img: "img/pattern.jpg",
+    pp: "img/bg.jpg",
+    desc: "Category2 desc",
+    price: 5112,
+    star: 5,
+    username: "Anna Pearl"
+  },
+  {
+    id: 3,
+    img: "img/pattern.jpg",
+    pp: "img/bg.jpg",
+    desc: "Category3 desc",
+    price: 1182,
+    star: 1,
+    username: "Anna Pearl"
+  },
+  {
+    id: 4,
+    img: "img/pattern.jpg",
+    pp: "img/bg.jpg",
+    desc: "Category4 desc",
+    price: 112,
+    star: 5,
+    username: "Anna Pearl"
+  },
+  {
+    id: 5,
+    img: "img/pattern.jpg",
+    pp: "img/bg.jpg",
+    desc: "Category5 desc",
+    price: 112,
+    star: 2,
+    username: "Anna Pearl"
+  },
+  {
+    id: 6,
+    img: "img/pattern.jpg",
+    pp: "img/bg.jpg",
+    desc: "Category6 desc",
+    price: 112,
+    star: 4,
+    username: "Anna Pearl"
+  },
+  {
+    id: 7,
+    img: "img/pattern.jpg",
+    pp: "img/bg.jpg",
+    desc: "Category7 desc",
+    price: 312,
+    star: 3,
+    username: "Anna Pearl"
+  },
+  {
+    id: 8,
+    img: "img/pattern.jpg",
+    pp: "img/bg.jpg",
+    desc: "Category8 desc",
+    price: 232,
+    star: 3,
+    username: "Anna Pearl"
+  }
+]

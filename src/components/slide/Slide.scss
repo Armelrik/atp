@@ -10,15 +10,28 @@
 
         
 
-        .carousel-prev,.carousel-next{
-            width: 50px;
-            height: 50px;
-            background-color: rgb(235, 232, 232);
+        // .carousel-prev,.carousel-next{
+        //     width: 50px;
+        //     height: 50px;
+        //     background-color: rgb(235, 232, 232);
+        //     border-radius: 50px;
+        //     position: absolute;
+        //     top: 0;
+        //     bottom: 0;
+        //     margin: auto;
+        // }
+
+        
+        .slick-arrow{
+            width: 25px;
+            height: 25px;
             border-radius: 50px;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            margin: auto;
+            background-color: rgb(235, 232, 232);
+
+            
         }
+
+       
+
     }
 }
