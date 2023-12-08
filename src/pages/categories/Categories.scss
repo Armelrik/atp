@@ -4,6 +4,99 @@
 
     .container{
         width: 1000px;
-        padding: 30px ;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .breadcrumbs{
+            font-weight: 300;
+            font-size: 13px;
+            color: #555;
+        }
+
+        h1{
+            font-size: 24px;
+        }
+
+        p{
+            color: #999;
+            font-weight: 300;
+        }
+
+        .menu{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .left{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #555;
+                font-weight: 300;
+
+                input{
+                    padding: 5px;
+                    border: 1px solid lightgray;
+                    outline: none;
+
+                    &::placeholder{
+                        color: rgb(123, 26, 26);
+                    }
+ 
+                }
+
+                button{
+                    background-color: #1dbf73;
+                    color: #fff;
+                    font-weight: 500;
+                    border: none;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+            }
+
+            .right{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                position: relative;
+
+                .sortBy{
+                    font-weight: 300;
+                    color: #555;
+                }
+
+                .sortType{
+                    font-weight: 500;
+                }
+
+                i{
+                    font-size: 15px;
+                    cursor: pointer;
+                }
+
+                .rightMenu{
+                    padding: 20px;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    border: .5px solid lightgreen;
+                    position: absolute;
+                    top: 30px;
+                    right: 0;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 18px;
+                    color: #555;
+
+                    span{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
     }
 }
