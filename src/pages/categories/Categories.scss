@@ -44,7 +44,7 @@
                     &::placeholder{
                         color: rgb(123, 26, 26);
                     }
- 
+
                 }
 
                 button{
@@ -96,7 +96,13 @@
                     }
                 }
             }
-
+        }
+        
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            // justify-content: space-between;
         }
     }
 }

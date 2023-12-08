@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import './Categories.scss'
-import { gigs } from '../../Data'
-import GigCard from '../../components/gigCard/GigCard'
+import { cats } from '../../Data'
+import CatCard from '../../components/catCard/CatCard'
 
 const Categories = () => {
 
@@ -46,10 +46,11 @@ const Categories = () => {
         </div>
 
         <div className="cards">
-          {gigs.map(gig=> (
-            <GigCard key={gig.id} item={gig} />
+          {cats.map(cat=> (
+            <CatCard key={cat.id} item={cat} />
           ))}
         </div>
+
       </div>
     </div>
   )

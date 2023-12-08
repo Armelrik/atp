@@ -140,7 +140,7 @@ export const projects = [
   },
 ];
 
-export const gigs = [
+export const cats = [
   {
     id: 1,
     img: "img/pattern.jpg",
@@ -212,5 +212,5 @@ export const gigs = [
     price: 232,
     star: 3,
     username: "Anna Pearl",
-  },
-];
+  }
+]
