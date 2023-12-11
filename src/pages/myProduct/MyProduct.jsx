@@ -1,26 +1,24 @@
-import React from "react";
-import "./Orders.scss";
+// import React from 'react'
+import { Link } from "react-router-dom";
+import "./MyProduct.scss";
 
-const Orders = () => {
-  const currentUser = {
-    id: 1,
-    username: "John Doe",
-    isSeller: true,
-  };
-
+const MyProduct = () => {
   return (
-    <div className="orders">
+    <div className="myproduct">
       <div className="container">
         <div className="title">
-          <h1>Orders</h1>
+          <h1>Products</h1>
+          <Link to="/add" className="link">
+            Add new Product
+          </Link>
         </div>
         <table>
           <tr>
             <th>Image</th>
             <th>Title</th>
             <th>Price</th>
-            <th>{currentUser.isSeller ? "Seller" : "Buyer"}</th>
-            <th>Contact</th>
+            <th>Sales</th>
+            <th>Action</th>
           </tr>
           <tr>
             <td>
@@ -30,7 +28,7 @@ const Orders = () => {
             <td>88</td>
             <td>123</td>
             <td>
-              <i className="fa-solid fa-address-card"></i>
+              <i className="fa-solid fa-trash"></i>
             </td>
           </tr>
           <tr>
@@ -41,7 +39,7 @@ const Orders = () => {
             <td>679</td>
             <td>15000</td>
             <td>
-              <i className="fa-solid fa-address-card"></i>
+              <i className="fa-solid fa-trash"></i>
             </td>
           </tr>
           <tr>
@@ -52,7 +50,7 @@ const Orders = () => {
             <td>45</td>
             <td>22000</td>
             <td>
-              <i className="fa-solid fa-address-card"></i>
+              <i className="fa-solid fa-trash"></i>
             </td>
           </tr>
           <tr>
@@ -63,7 +61,7 @@ const Orders = () => {
             <td>67</td>
             <td>19000</td>
             <td>
-              <i className="fa-solid fa-address-card"></i>
+              <i className="fa-solid fa-trash"></i>
             </td>
           </tr>
           <tr>
@@ -74,7 +72,7 @@ const Orders = () => {
             <td>23</td>
             <td>16000</td>
             <td>
-              <i className="fa-solid fa-address-card"></i>
+              <i className="fa-solid fa-trash"></i>
             </td>
           </tr>
         </table>
@@ -83,4 +81,4 @@ const Orders = () => {
   );
 };
 
-export default Orders;
+export default MyProduct;

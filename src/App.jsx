@@ -1,18 +1,16 @@
-import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Footer from './components/footer/Footer';
-import Navbar from './components/navbar/Navbar';
-import Home from './pages/home/Home';
-import Categories from './pages/categories/Categories';
-import Category from './pages/category/Category';
-import Orders from './pages/orders/Orders';
-import MyCategories from './pages/myCategories/MyCategories';
-import Messages from './pages/messages/Messages';
-import Add from './pages/add/Add';
-import Message from './pages/message/Message';
-
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/home/Home";
+import Categories from "./pages/categories/Categories";
+import Category from "./pages/category/Category";
+import Orders from "./pages/orders/Orders";
+import MyProduct from "./pages/myProduct/MyProduct";
+import Add from "./pages/add/Add";
+import Message from "./pages/message/Message";
+import Messages from "./pages/messages/Messages";
 
 function App() {
-
   const Layout = () => {
     return (
       <div className="app">
@@ -20,8 +18,8 @@ function App() {
         <Outlet />
         <Footer />
       </div>
-    )
-  }
+    );
+  };
 
   const router = createBrowserRouter([
     {
@@ -30,38 +28,37 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Home />
+          element: <Home />,
         },
         {
-          path: "/mycategories",
-          element: <MyCategories />
+          path: "/myproduct",
+          element: <MyProduct />,
         },
         {
           path: "/categories",
-          element: <Categories />
+          element: <Categories />,
         },
         {
           path: "/category",
-          element: <Category />
+          element: <Category />,
         },
         {
           path: "/orders",
-          element: <Orders />
+          element: <Orders />,
         },
         {
           path: "/add",
-          element: <Add />
+          element: <Add />,
         },
         {
           path: "/messages",
-          element: <Messages />
+          element: <Messages />,
         },
         {
           path: "/message/:id",
-          element: <Message />
+          element: <Message />,
         },
-        
-      ]
+      ],
     },
   ]);
 
@@ -74,4 +71,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
